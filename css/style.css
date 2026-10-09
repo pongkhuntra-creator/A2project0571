@@ -1,0 +1,19 @@
+
+
+body {
+    background-color: #f8f9fa;
+}
+
+.profile-img {
+    width: 180px;
+    height: auto;
+}
+
+.portfolio-img {
+    height: 180px;
+    object-fit: cover;
+}
+
+a:hover {
+    opacity: 0.8;
+}

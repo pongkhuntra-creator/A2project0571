@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Assignment 2</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Simple Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Pongkhun's Web</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="myMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">My Portfolio</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-primary text-white text-center py-4">
+        <div class="container">
+            <h1>Learning Portfolio</h1>
+            <p>CS100 Assignment 2 - My First Bootstrap Website</p>
+        </div>
+    </header>
+
+    <main class="container my-4">
+
+        <!-- About Me Section -->
+        <section id="about" class="bg-light p-3 border mb-4">
+            <h2 class="text-primary border-bottom pb-2">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-12 col-md-4 text-center my-2">
+                    <img src="media/AhaConvert_67_20260619145154.jpg" alt="My Profile Picture" class="profile-img border">
+                </div>
+                <div class="col-12 col-md-8">
+                    <h3>Pongkhun Trakoonlertyod</h3>
+                    <p><strong>Student ID:</strong> 6909650571</p>
+                    <p><strong>Program:</strong> Computer Science</p>
+                    <p>Hello! I am a student trying to learn web programming. This is my second assignment where I try using Bootstrap, Git, and GitHub Pages to make my website responsive.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- My Portfolio Section -->
+        <section id="portfolio">
+            <h2 class="text-primary border-bottom pb-2 mb-3">My Portfolio</h2>
+            
+            <div class="row">
+                
+                <!-- Portfolio Item 1: CS100 Assignment 1 -->
+                <div class="col-12 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="media/Annotation 2026-10-09 141613.png" class="card-img-top portfolio-img" alt="Assignment 1 Picture">
+                        <div class="card-body">
+                            <h3 class="card-title h4">CS100 Assignment 1</h3>
+                            <p><span class="badge bg-primary">Course Assignment</span></p>
+                            
+                            <p><strong>Date:</strong> August 2026</p>
+                            <p><strong>Role:</strong> Individual Developer</p>
+                            <p><strong>Description:</strong> I built a basic single-page website using HTML and CSS to practice web structures and folder setup.</p>
+                            
+                            <p><strong>Skills:</strong> HTML, CSS</p>
+
+                            <div class="border p-2 bg-light mb-3">
+                                <h5>Reflection:</h5>
+                                <ul>
+                                    <li><strong>What I did:</strong> Created HTML code and styled it with an external CSS file.</li>
+                                    <li><strong>What I learned:</strong> Learned basic tags like header and main, and understood how local files work.</li>
+                                    <li><strong>Challenge:</strong> Spacing elements was hard for me. I fixed it by testing CSS margins.</li>
+                                    <li><strong>Next step:</strong> Try using Bootstrap grids to make it look better on phones.</li>
+                                </ul>
+                            </div>
+
+                            <p><strong>Evidence:</strong></p>
+                            <a href="https://pongkhuntra-creator.github.io/A1project0571/" target="_blank" class="btn btn-primary btn-sm">GitHub Repo</a>
+                            <a href="https://github.com/pongkhuntra-creator/A1project0571" target="_blank" class="btn btn-success btn-sm">Website</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 2: Cartoon Club Voice Acting Experience -->
+                <div class="col-12 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="media/IMG_20261009_142842 (2).jpg" class="card-img-top portfolio-img" alt="Cartoon Club Voice Acting">
+                        <div class="card-body">
+                            <h3 class="card-title h4">Voice Acting at Cartoon Club</h3>
+                            <p><span class="badge bg-warning text-dark">Activity / Experience</span></p>
+                            
+                            <p><strong>Date:</strong> January 2026</p>
+                            <p><strong>Role:</strong> Voice Actor Trainee / Participant</p>
+                            <p><strong>Description:</strong> I joined a voice acting activity at Cartoon Club. I practiced using my voice to perform different anime and cartoon characters in a studio environment.</p>
+                            
+                            <p><strong>Skills:</strong> Voice Acting, Public Speaking, Team Communication, Time Synchronization</p>
+
+                            <div class="border p-2 bg-light mb-3">
+                                <h5>Reflection:</h5>
+                                <ul>
+                                    <li><strong>What I did:</strong> Practiced script reading, character voice performance, and recording audio in a professional studio.</li>
+                                    <li><strong>What I learned:</strong> Learned how sound production works, how to control voice tone, and how to work with directors.</li>
+                                    <li><strong>Challenge:</strong> Matching my speech speed with the character's lip movements was hard at first. I fixed it by practicing script timing repeatedly.</li>
+                                    <li><strong>Next step:</strong> Improve my communication skills and try combining voice recording with future web/multimedia projects.</li>
+                                </ul>
+                            </div>
+
+                            <p><strong>Evidence:</strong></p>
+                            <a href="https://youtu.be/XB7w3agUFgo?si=Q0hqj20glxOF-eiU" target="_blank" class="btn btn-primary btn-sm">Cartoon Club Website</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">2026 Pongkhun Trakoonlertyod - Learning Web Development</p>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
